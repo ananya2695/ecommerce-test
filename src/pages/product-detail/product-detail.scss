@@ -1,0 +1,32 @@
+page-product-detail {
+    ul {
+        padding: 22px 0px;
+        margin: 0px;
+        &.rating li {
+            padding: 0px 0px !important;
+            background: none;
+            color: #ffdf9e;
+            ion-icon {
+                font-size: 30px;
+            }
+        }
+    }
+    .price-color {
+        color: #D291BC;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .detail-color {
+        color: gray;
+        font-size: 18px;
+    }
+    .padding-10 {
+        padding: 10px;
+    }
+    ion-slides {
+        height: unset !important;
+    }
+    .margin-top {
+        margin-top: 15px;
+    }
+}
